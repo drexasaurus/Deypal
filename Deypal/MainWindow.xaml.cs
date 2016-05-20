@@ -23,6 +23,7 @@ namespace Deypal
         public MainWindow()
         {
             InitializeComponent();
+            LocalDbSetup.Initialize();
         }
     }
 }
